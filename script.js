@@ -1,3 +1,10 @@
-document.getElementById("button").onclick = function(){
-    document.getElementById("stuff").style.display = "inline";
+function toggle() {
+    var x = document.getElementById("stuff");
+
+    if(x.style.display === "none") {
+        x.style.display = "block";
+    }
+    else {
+        x.style.display = "none";
+    }
 }
